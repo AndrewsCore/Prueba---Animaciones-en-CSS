@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vagamundos - Explora el mundo</title>
+    <!-- Importación de Google Fonts: Montserrat (Títulos) e Inter (Cuerpo) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Montserrat:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- estilos propios -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Importación de FontAwesome -->
+    <script src="https://kit.fontawesome.com/b444f4d1b1.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <div class="contenedor-principal">
+        <!-- SECCIÓN 1: Menú Lateral -->
+        <nav class="barra-lateral">
+            <div class="logotipo">Vagamundos</div>
+
+            <!-- Menú Móvil -->
+            <input type="checkbox" id="interruptor-menu">
+            <label for="interruptor-menu" class="icono-menu-movil">
+                <i class="fas fa-bars"></i>
+            </label>
+
+            <!-- Menú Navegación -->
+            <ul class="enlaces-navegacion">
+                <li><a href="#inicio"><i class="fas fa-home"></i> <span>Inicio</span></a></li>
+                <li><a href="#ofertas"><i class="fas fa-tags"></i> <span>Ofertas</span></a></li>
+                <li><a href="#destinos"><i class="fas fa-map-marked-alt"></i> <span>Destinos</span></a></li>
+                <li><a href="#contacto"><i class="fas fa-envelope"></i> <span>Contacto</span></a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <header id="inicio">
+                <h1 class="encabezado">Tu próxima historia comienza aquí</h1>
+                <p class="descripcion">Paquetes exclusivos y experiencias diseñadas para viajeros que buscan lo extraordinario en cada rincón del planeta.</p>
+            </header>
+
+            <!-- SECCIÓN OFERTAS -->
+            <section id="ofertas">
+                <h2 class="titulo-seccion">Ofertas Destacadas</h2>
+                <div class="rejilla-ofertas">
+                    <article class="tarjeta-oferta">
+                        <div class="etiqueta-oferta">30% OFF</div>
+                        <img src="images/imagen-oferta-1.avif" alt="Bali">
+                        <div class="info-oferta">
+                            <h3>Bali Místico</h3>
+                            <p>Vuelos directos + 7 noches en resort boutique frente al mar.</p>
+                        </div>
+                    </article>
+                    <article class="tarjeta-oferta">
+                        <div class="etiqueta-oferta">ÚLTIMOS CUPOS</div>
+                        <img src="images/imagen-oferta-2.avif" alt="Paris">
+                        <div class="info-oferta">
+                            <h3>Primavera en París</h3>
+                            <p>Escapada romántica con tour gastronómico incluido.</p>
+                        </div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SECCIÓN DESTINOS -->
+            <section id="destinos">
+                <h2 class="titulo-seccion">Nuestros Destinos</h2>
+                <div class="galeria-destinos">
+                    <article class="item-galeria">
+                        <img src="/images/imagen-viaje-1.avif" alt="Suiza">
+                        <div class="leyenda-galeria">Zermatt, Suiza</div>
+                    </article>
+                    <article class="item-galeria">
+                        <img src="/images/imagen-viaje-2.avif" alt="Venecia">
+                        <div class="leyenda-galeria">Venecia, Italia</div>
+                    </article>
+                    <article class="item-galeria">
+                        <img src="/images/imagen-viaje-3.avif" alt="Caribe">
+                        <div class="leyenda-galeria">Punta Cana, Rep. Dominicana</div>
+                    </article>
+                    <article class="item-galeria">
+                        <img src="/images/imagen-viaje-4.avif" alt="Marruecos">
+                        <div class="leyenda-galeria">Desierto de Merzouga</div>
+                    </article>
+                </div>
+            </section>
+
+            <!-- SECCIÓN CONTACTO -->
+            <section id="contacto">
+                <h2 class="titulo-seccion">Hablemos de tu viaje</h2>
+                <div class="contenedor-contacto">
+                    <div class="bloque-info-contacto">
+                        <div class="dato-contacto">
+                            <i class="fas fa-phone"></i>
+                            <span>+56 9 1234 5678</span>
+                        </div>
+                        <div class="dato-contacto">
+                            <i class="fas fa-at"></i>
+                            <span>reservas@vagamundos.com</span>
+                        </div>
+                        <div class="dato-contacto">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>Av. Viajera 450, Santiago CL</span>
+                        </div>
+                        <div class="dato-contacto">
+                            <i class="fas fa-clock"></i>
+                            <span>Lun - Vie: 09:00 - 18:00</span>
+                        </div>
+                    </div>
+                    <div class="botones-contacto">
+                        <a href="#" class="boton-accion boton-whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                            Escríbenos por WhatsApp
+                        </a>
+                        <a href="#" class="boton-accion boton-email">
+                            <i class="fas fa-paper-plane"></i>
+                            Solicitar Presupuesto
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- PIE DE PÁGINA -->
+    <footer>
+        <div class="info-pie-pagina">
+            <strong>Vagamundos Travel</strong>
+            <p class="derechos-autor">&copy; 2026 Vagamundos. Todos los derechos reservados.</p>
+        </div>
+        <div class="iconos-sociales">
+            <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" title="Twitter"><i class="fab fa-x-twitter"></i></a>
+            <a href="#" title="YouTube"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+
+</body>
+</html>
